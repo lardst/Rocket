@@ -56,11 +56,11 @@ The data for each drive will contain the following.
 	percentFree - The percent remaining on the dive as an integer
 	percentUsed - The percent used on the dive as an integer
 
-## License [![MIT license][license-img]][license-url]
+## License
 
->The [`MIT`][license-url] License (MIT)
+>The License (MIT)
 >
->Copyright &copy; 2017 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
+>Copyright &copy; 2017 Lawrence Burnett
 >
 >Permission is hereby granted, free of charge, to any person obtaining a copy
 >of this software and associated documentation files (the "Software"), to deal
