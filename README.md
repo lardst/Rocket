@@ -1,6 +1,8 @@
 # Rocket
 [![NPM](https://www.npmjs.com/package/rocket-nodejs.png?downloads=true&stars=true)](https://www.npmjs.com/package/rocket-nodejs)
 
+	npm install rocket-nodejs
+
 Node JS module to get drive information on the application's host machine asynchronously.
 
 # Usage
