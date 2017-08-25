@@ -1,6 +1,6 @@
 {
   "name": "rocket-nodejs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Node JS module to get drive information about the application's host machine.",
   "main": "./lib/rocket",
   "scripts": {

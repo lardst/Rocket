@@ -5,7 +5,7 @@
 
 Node JS module to get drive information on the application's host machine asynchronously.
 
-This library is supposed to only work on darwin and linux based systems.
+This library is supposed to only work on Darwin, Linux and Windows based systems.
 
 ### Installation
 
