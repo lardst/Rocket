@@ -1,0 +1,22 @@
+{
+  "name": "rocket",
+  "version": "1.0.0",
+  "description": "Node JS module to get drive information about the application's host machine.",
+  "main": "./lib/rocket",
+  "scripts": {
+    "test": "mocha test/ -R spec -s 300 -t 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lardst/Rocket.git"
+  },
+  "keywords": [
+    "drive"
+  ],
+  "author": "Lawrence Burnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lardst/Rocket/issues"
+  },
+  "homepage": "https://github.com/lardst/Rocket#readme"
+}
