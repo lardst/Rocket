@@ -1,9 +1,15 @@
 # Rocket
 [![NPM](https://www.npmjs.com/package/rocket-nodejs.png?downloads=true&stars=true)](https://www.npmjs.com/package/rocket-nodejs)
 
-	npm install rocket-nodejs
+## Description
 
 Node JS module to get drive information on the application's host machine asynchronously.
+
+This library is supposed to only work on darwin and linux based systems.
+
+### Installation
+
+	npm install rocket-nodejs
 
 # Usage
 
@@ -31,6 +37,11 @@ Node JS module to get drive information on the application's host machine asynch
 	 */
 	rocket.drives(true);
 
+	/**
+	 * Return a single, specified, drive with the drive data as a JSON object.
+	 */
+	rocket.drive('/dev/disk1');	 
+
 # Returned Data Structure
 The data for each drive will contain the following.
 
@@ -44,3 +55,29 @@ The data for each drive will contain the following.
 	mountpoint - The mount path of the drive
 	percentFree - The percent remaining on the dive as an integer
 	percentUsed - The percent used on the dive as an integer
+
+## License [![MIT license][license-img]][license-url]
+
+>The [`MIT`][license-url] License (MIT)
+>
+>Copyright &copy; 2017 Sebastian Hildebrandt, [+innovations](http://www.plus-innovations.com).
+>
+>Permission is hereby granted, free of charge, to any person obtaining a copy
+>of this software and associated documentation files (the "Software"), to deal
+>in the Software without restriction, including without limitation the rights
+>to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+>copies of the Software, and to permit persons to whom the Software is
+>furnished to do so, subject to the following conditions:
+>
+>The above copyright notice and this permission notice shall be included in
+>all copies or substantial portions of the Software.
+>
+>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+>IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+>FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+>AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+>LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+>OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+>THE SOFTWARE.
+>
+>Further details see [LICENSE](LICENSE) file.
