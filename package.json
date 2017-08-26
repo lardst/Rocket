@@ -1,6 +1,6 @@
 {
   "name": "rocket-nodejs",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Node JS module to get drive information about the application's host machine.",
   "main": "./lib/rocket",
   "scripts": {
@@ -19,7 +19,8 @@
     "url": "https://github.com/lardst/Rocket/issues"
   },
   "dependencies": {
-    "numeral": "~1.4.8"
+    "numeral": "~1.4.8",
+    "osx-temperature-sensor": "^1.0.1"
   },
   "homepage": "https://github.com/lardst/Rocket#readme"
 }
