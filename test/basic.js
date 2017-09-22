@@ -3,7 +3,7 @@ var should  = require("should");
 
 var rocket = require("../");
 
-describe("Rocket 'drives' Method Tests.", function(){
+describe("Rocket 'drives' Method Tests.", function () {
 
 	it("The 'drives' method should be a function.", function(done){
 		rocket.drives.should.be.Function

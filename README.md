@@ -14,6 +14,10 @@ This library is supposed to only work on Darwin, Linux and Windows based systems
 # Usage
 
 	var rocket = require('rocket-nodejs');
+
+	/**
+	 * Drive information
+	**/
 	
 	/**
 	 * Return all of the drives with the drive data in an array.
@@ -40,7 +44,13 @@ This library is supposed to only work on Darwin, Linux and Windows based systems
 	/**
 	 * Return a single, specified, drive with the drive data as a JSON object.
 	 */
-	rocket.drive('/dev/disk1');	 
+	rocket.drive('/dev/disk1');
+
+	/**
+	 * Temperature information
+	**/
+
+	rocket.temperature();
 
 # Returned Data Structure
 The data for each drive will contain the following.
